@@ -54,3 +54,6 @@ func visit(links []string, n *html.Node) []string {
 	}
 	return links
 }
+
+// Запуск парсера
+// go run main.go http://rbc.ru
